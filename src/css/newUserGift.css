@@ -1,0 +1,44 @@
+body {
+    background: #fdf7e1 url("../img/newUserGift/bg.jpg") no-repeat top center;
+    background-size: cover;
+    line-height: normal;
+    height:100%;
+}
+nav{
+    overflow: hidden;
+}
+section{
+    width: 750px;
+}
+nav>img{
+    width: 594px;
+    display: block;
+    margin: 60px auto 0;
+}
+section>img{
+    display: block;
+    margin: 0 auto;
+}
+.link01{
+    margin-top: 504px;
+}
+.link01>img{
+    width: 492px;
+}
+.city{
+    margin-top: 30px;
+    background: url("../img/newUserGift/words02.png") no-repeat;
+    line-height: normal;
+}
+.city>p{
+    margin-left: 200px;
+    font-size: 28px;/*px*/
+    color: #cc0033;
+}
+.link02{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link02>img{
+    width: 260px;
+}

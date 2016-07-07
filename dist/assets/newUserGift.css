@@ -1,0 +1,65 @@
+body {
+  background: #fdf7e1 url("../img/newUserGift/bg.jpg") no-repeat top center;
+  background-size: cover;
+  line-height: normal;
+  height: 100%;
+}
+
+nav {
+  overflow: hidden;
+}
+
+section {
+  width: 10rem;
+}
+
+nav>img {
+  width: 7.92rem;
+  display: block;
+  margin: 0.8rem auto 0;
+}
+
+section>img {
+  display: block;
+  margin: 0 auto;
+}
+
+.link01 {
+  margin-top: 6.72rem;
+}
+
+.link01>img {
+  width: 6.56rem;
+}
+
+.city {
+  margin-top: 0.4rem;
+  background: url("../img/newUserGift/words02.png") no-repeat;
+  line-height: normal;
+}
+
+.city>p {
+  margin-left: 2.666667rem;
+  color: #cc0033;
+}
+
+[data-dpr="1"] .city>p {
+  font-size: 14px;
+}
+
+[data-dpr="2"] .city>p {
+  font-size: 28px;
+}
+
+[data-dpr="3"] .city>p {
+  font-size: 42px;
+}
+
+.link02 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.link02>img {
+  width: 3.466667rem;
+}
