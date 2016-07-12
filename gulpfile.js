@@ -18,7 +18,7 @@ var gulp = require('gulp'),
 //css添加前缀、压缩、重命名
 gulp.task('style', function () {
     //noinspection JSUnresolvedFunction
-    return gulp.src('src/css/1.css')
+    return gulp.src('src/css/*.css')
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
         .pipe(gulp.dest('dist/assets/css'))
         .pipe(postcss([px2rem({remUnit: 75})]))/*px转成rem*/
